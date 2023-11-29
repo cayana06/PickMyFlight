@@ -4,7 +4,7 @@ PickMyFlight/
 ├── src/
 │   ├── com/
 │   │   ├── pickmyflight/
-│   │   │   ├── Main.java                // Entry point of the application
+│   │   │   ├── com.pickmyflight.Main.java                // Entry point of the application
 │   │   │   ├── UserParams.java          // Handling user input
 │   │   │   ├── DatabaseManager.java     // Database interactions
 │   │   │   ├── Flight.java              // Class representing flight data
