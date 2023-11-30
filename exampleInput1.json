@@ -1,3 +1,16 @@
 {
-  "price": "500"
+  "source": "JFK",
+  "destination": "LAX",
+  "budget": "750.00",
+  "dateRange": "06-01-23,06-25-23",
+  "departureWindow": "11:00-16:00",
+  "arrivalWindow": "", //TODO: Handle arrivalWindow being earlier than fastest flight duration
+  "classPreferance": "economy",
+  "maxFlightDuration": "540", //TODO: Handle parameter being less than shortest flight on this route
+  "maxLayovers": 0,
+  "SeatPreference": 1, //(window seat)
+  "carryOnIncluded": 1,
+  "tripLength": "7-9" //Range between 7 and 9 days between flights (roundtrip)
 }
+
+
