@@ -1,0 +1,25 @@
+just an idea...
+
+PickMyFlight/
+├── src/
+│   ├── com/
+│   │   ├── pickmyflight/
+│   │   │   ├── com.pickmyflight.Main.java                // Entry point of the application
+│   │   │   ├── UserParams.java          // Handling user input
+│   │   │   ├── DatabaseManager.java     // Database interactions
+│   │   │   ├── Flight.java              // Class representing flight data
+│   │   │   ├── FlightFilter.java        // Filtering flights based on user criteria
+│   │   │   └── RecommendationGenerator.java // Generating flight recommendations
+│   ├── resources/
+│   │   └── sample.json                  // Example JSON input file
+├── lib/                                 // Place external libraries (JAR files) here
+├── out/                                 // Output directory (created by IDE or build tools)
+├── test/                                // Test directory for unit tests
+│   ├── com/
+│   │   ├── pickmyflight/
+│   │   │   ├── UserParamsTest.java      // Tests for UserParams class
+│   │   │   ├── FlightFilterTest.java    // Tests for FlightFilter class
+│   │   │   ├── DatabaseManagerTest.java // Tests for DatabaseManager class
+│   │   │   └── RecommendationGeneratorTest.java // Tests for RecommendationGenerator class
+├── .gitignore                           // Gitignore file to specify files/folders to ignore
+├── README.md                            // Project documentation
