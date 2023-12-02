@@ -1,0 +1,14 @@
+{
+  "source": "JFK",
+  "destination": "DTW",
+  "budget": "400.00",
+  "dateRange": "06-01-23,06-25-23",
+  "departureWindow": "13:00-15:00",
+  "arrivalWindow": "", //TODO: Handle arrivalWindow being earlier than fastest flight duration
+  "classPreferance": "firstclass",
+  "maxFlightDuration": "3", //TODO: Handle parameter being less than shortest flight on this route
+  "maxLayovers": 2,
+  "SeatPreference": 0, 
+  "carryOnIncluded": 1,
+  "tripLength": "7-10" //Range between 7 and 9 days between flights (roundtrip)
+}
