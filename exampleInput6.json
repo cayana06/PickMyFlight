@@ -1,0 +1,13 @@
+{
+  "source": "LSC",
+  "destination": "SFO",
+  "budget": "300.00",
+  "dateRange": "01-24-24,01-31-24",
+  "departureWindow": "11:00-16:00",
+  "arrivalWindow": "", //TODO: Handle arrivalWindow being earlier than fastest flight duration
+  "classPreferance": "",
+  "maxFlightDuration": "600", //TODO: Handle parameter being less than shortest flight on this route
+  "maxLayovers": 3,
+  "SeatPreference": , 
+  "carryOnIncluded": 1,
+  "tripLength": "5" 
