@@ -1,0 +1,14 @@
+{
+  "source": "SFO",
+  "destination": "SFO",
+  "budget": "610.00",
+  "dateRange": "12-20-23,12-30-23",
+  "departureWindow": "12:00-19:00",
+  "arrivalWindow": "", 
+  "classPreferance": "firstclass",
+  "maxFlightDuration": "416",
+  "maxLayovers": 0,
+  "SeatPreference": , 
+  "carryOnIncluded": 1,
+  "tripLength": "10-20" 
+}
